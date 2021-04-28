@@ -1,7 +1,7 @@
 #include "struct.h"
 #include <iostream>
 
-extern std::string GetMonsterType(MonsterType m);
+std::string GetMonsterType(MonsterType m);
 
 void PrintMonster(Monster m)
 {
